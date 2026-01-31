@@ -366,14 +366,13 @@ For instance, If a dataset contains 5000 reviews and trains with 10 epochs, the 
 <img width = 800 height = 400 src = "figs/chatgpt_lstm_result.png">
 </p>
 
-- Model yang dilatih menggunakan data ulasan ChatGPT menampilkan performa yang lebih baik dari saat dengan data ulasan dua chatbot sebelumnya. Gambar sebelah kiri menujukkan akurasi, baik dengan training data maupun validation data, dengan skor sekitar 0.9 (90%).
+- The model trained using ChatGPT review data performed better than the model trained using the review data from the two previous chatbots. The left figure shows accuracy, both with training and validation data, with scores around 0.9 (90%).
 
-- Grafik sebelah kanan menunjukkan skor loss sepanjang epoch. Skor tersebut turun hingga dari sekitar 0.45 (45%) ke 0.25 (25%) pada train, 0.35 (35%) ke 0.25 (25%) pada validation.
-
+- The right-hand graph shows the loss score across epochs. It drops from around 0.45 (45%) to 0.25 (25%) on the training run, and from 0.35 (35%) to 0.25 (25%) on the validation run.
 
 ### Comparison of Lexicon and LSTM
 
-Subbab ini dikhususkan untuk membahas perbandingan secara akurasi antara model LSTM dan Lexicon yang dilatih dengan dataset ulasan tiga aplikasi chatbot. 
+This sub-chapter is devoted to discussing the accuracy comparison between the LSTM and Lexicon models trained with the review dataset of three chatbot applications.
 
 <p align = center>
 <img width = 700 height = 400 src = "figs/accuracy_comparison.png">
