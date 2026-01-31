@@ -284,7 +284,7 @@ $$f_t = \sigma(W_f . [h_{t-1}, x_t] +b).$$
 
 **Input Gate**: This gate is used to update the old cell state $C_{t-1}$ with input data in the form of the hidden state from the previous cell state, $h_{t-1}$, and new information $X_t$. The input gate has two paths, the path containing the sigmoid function for recent input $i_t$ and the one with the hyperbolic tangent (tanh) for the candidate cell state $\tilde{C}_t$. The update method can be done using the equation
 
-$$C_t = f_t*C_{t-1} + i_t*\tilde{C}_t$$
+$$C_t = f_tC_{t-1} + i_t\tilde{C}_t$$
 
 where $f_t$ is the *forget gate* function, $C_{t-1}$ is the cell state with previous information, and $i_t$ is the *input gate* at time $t$ containing the equation 
 
