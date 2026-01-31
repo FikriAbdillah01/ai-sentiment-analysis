@@ -1,0 +1,8 @@
+seaborn
+numpy
+matplotlib
+pandas
+re
+nltk
+transformer
+tensorflow
