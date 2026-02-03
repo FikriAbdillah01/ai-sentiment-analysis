@@ -1,4 +1,4 @@
-# ChatGPT Sentiment Analysis (On Going)
+# Chatbot App Sentiment Analysis
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@
 
 -[Tools and Libraries](#tools-and-libraries)
 
--[Exploration Data Analysis](#exploration-data-analysis)
+-[Exploratory Data Analysis](#exploratory-data-analysis)
 
 -[Preprocessing](#preprocessing)
 
@@ -39,13 +39,13 @@ Sentiment analysis, also known as opinion mining, is a subfield of Natural Langu
 
 ## Objective
 
-Tujuan dari proyek ini adalah:
+The goal of this project is:
 
-1. Comparing two sentiment analysis methods, lexicon and LSTM,
+1. Comparing the result of the lexicon and LSTM sentiment analysis model,
 
 2. Comparing the sentiment analysis results of the three chatbots with the two models, and
 
-3. Provides data exploration results on three chatbot reviews.
+3. Conduct exploratory data analysis on user reviews from three chatbot applications to reveal sentiment patterns and distributions.
 
 ## Limitation
 The limitation of this project are
@@ -342,7 +342,7 @@ In this project, the LSTM was trained on a dataset, with 20% of the data set asi
 
 - **Note**: *Batch Size* is the number of samples processed before the model updates its parameters.
 
-- **Note**: *Iteration* refers to one update step. Jika kita memiliki 1000 sampel dan 100 ukuran batch, maka satu epoch mengandung 10 pengulangan.
+- **Note**: *Iteration* refers to one update step. If we have 1000 samples and 100 batch size, then one epoch contains 10 repetitions.
 
 For instance, If a dataset contains 5000 reviews and trains with 10 epochs, the model will process 50000 samples in total.
 
@@ -390,7 +390,7 @@ The conclusion obtained from this project is:
 
 2. The model from the ChatGPT chatbot review dataset managed to achieve a higher accuracy score than Deepseek and Claude, both with the Lexicon and LSTM models due to the large number of the review dataset.
 
-3. Based on the results of data exploration, the words in the positive reviews that were often said about these three chatbot applications were that the applications helped users in answering questions, while the shortcomings expressed by many users were related to technical problems.
+3. Based on the exploratory analysis, positive reviews of the three chatbot applications often highlighted that the apps helped users answer questions, while negative reviews frequently pointed to technical problems as the main shortcomings.
 
 ## Reference
 
