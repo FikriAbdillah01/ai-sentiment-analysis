@@ -63,7 +63,7 @@ The workflow for this project can be seen in the image below. After data have be
 </p>
 
 ## Data Source
-This data was scrapped by using `google-play-scraper`. This data contains `date`, `ratings`,` review_id`, `username`, and `review text`. The `date` columns contains the date when the review wrote from user. Reviewer identity can be represented by `review_id` and `username`. The user opinion and score can be seen on `review text` and `ratings`, respectively.
+This data was scrapped by using `google-play-scraper`. This data contains `date`, `ratings`,` review_id`, `username`, and `review text`. The `date` columns contains the date when the review wrote from user. Reviewer identity can be represented by `review_id` and `username`. The user opinion and score can be seen on `review text` and `ratings`, respectively.The amount of data obtained from the scraping results for Deepseek, Claude, and ChatGPT is at 3985, 812, and 20000 data, respectively.
 
 ## Tools and Libraries
 The tools I used in this Google Colab and Google Play Scraper. The version of python, main programming languange, is 3.12.11. The libraries are:
