@@ -352,15 +352,15 @@ For instance, If a dataset contains 5000 reviews and trains with 10 epochs, the 
 
 - The graph above shows the evaluation metrics of an LSTM model trained using the Deepseek review dataset. In the left image, both training (blue) and validation (orange) accuracy improved with each iteration.
 
-- The figure on the rigth illustrates how close the model's prediction align with the actual outcomes, as measured by the loss function. The loss decreases steadily as the number of epochs increases. In addition, the training and validation curves remain close to each other, suggesting that the model is generalizing well and not overfitting.
+- The figure on the right illustrates how close the model's prediction align with the actual outcomes. The loss decreases steadily as the number of epochs increases, as measured by the loss function. Using the Deepseek review training dataset for 10 epochs, the model achieved an accuracy of about 0.80 (80%) with a loss of 0.45 (45%). On the validation data, it reached an accuracy of approximately 0.78 (78%) with the same loss of 0.45 (45%). In addition, the training and validation curves remain close to each other, suggesting that the model is generalizing well and not overfitting.
 
 <p align = center>
 <img width = 800 height = 400 src = "figs/claude_lstm_result.png">
 </p>
 
-- The graph above shows an LSTM model trained using Claude chatbot app review data. In terms of accuracy, the model trained with the training data (blue) increased from 0.7 to 0.85. Conversely, when the model was validated (orange), its accuracy dropped slightly from around 0.82 to 0.78.
+- The graph above shows an LSTM model trained using Claude chatbot app review data. In terms of accuracy, the model trained with the training data (blue) increased from 0.7 to 0.85. Conversely, when the model was validated (orange), its accuracy dropped slightly from around 0.82 (82%) to 0.78 (78%).
 
-- In the loss plot on the left, the validation curve (orange) initially outperformed the training curve (blue) during the first epoch. By the 10th epoch, however, both had decreased to a loss value of 0.54.
+- In the loss plot on the left, the validation curve (orange) initially outperformed the training curve (blue) during the first epoch. By the 10th epoch, however, both had decreased to a loss value of 0.54 (54%).
 
 <p align = center>
 <img width = 800 height = 400 src = "figs/chatgpt_lstm_result.png">
