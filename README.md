@@ -18,7 +18,7 @@
 
 -[Preprocessing](#preprocessing)
 
--[Machine Learning Result](#machine-learning-result)
+-[Sentiment Method Result](#sentiment-method-result)
 
 -[Conclusion](#conclusion)
 
@@ -378,7 +378,7 @@ This sub-chapter is devoted to discussing the accuracy comparison between the LS
 <img width = 700 height = 400 src = "figs/accuracy_comparison.png">
 </p>
 
-- **Lexicon vs LSTM**: In this project, the lexicon-based accuracy scores for DeepSeek, Claude, and ChatGPT ranged from 0.4 to 0.6, while the LSTM model achieved between 0.8 and 0.9. The superior performance of LSTM can be attributed to its ability to learn and capture vocabulary patterns directly from the training data, enabling it to better understand the context of user reviews. In contrast, the lexicon method relies on external resources such as sentiment dictionaries, which must be sufficiently comprehensive to evaluate whether a review is positive or negative. Since the dictionary developed in this project lacked vocabulary coverage and linguistic diversity, many reviews were misclassified as neutral, limiting the overall accuracy of the lexicon approach.
+- **Lexicon vs LSTM**: In this project, the lexicon-based approach yielded accuracy scores between 0.40 and 0.60 for DeepSeek, Claude, and ChatGPT, whereas the LSTM model achieved 0.80 to 0.90. The superior performance of LSTM is attributable to its capacity to learn vocabulary patterns directly from training data, thereby capturing contextual nuances in user reviews. By contrast, the lexicon method depends on sentiment dictionaries that must provide broad lexical coverage. The dictionary constructed for this project exhibited limited vocabulary and insufficient linguistic diversity, leading to frequent misclassification of reviews as neutral and consequently reducing the accuracy of the lexicon approach.
 
 - **Dataset**: Models trained on the ChatGPT review dataset achieved higher performance with both the lexicon and LSTM approaches compared to DeepSeek and Claude. This improvement is largely due to the significantly larger volume of data collected for ChatGPT, which provided a wider variety of user reviews. A larger and more diverse dataset allows the models to capture richer linguistic patterns and better understand the context of each review, leading to improved accuracy (Hatamian et al. 2025).
 
